@@ -38,7 +38,7 @@ export default function Components(props) {
   return (
     <div>
       <Header
-        brand="Material Kit React"
+        brand="Natural Fire Wood"
         rightLinks={<HeaderLinks />}
         fixed
         color="transparent"
@@ -53,9 +53,9 @@ export default function Components(props) {
           <GridContainer>
             <GridItem>
               <div className={classes.brand}>
-                <h1 className={classes.title}>Material Kit React.</h1>
+                <h1 className={classes.title}>Natural Fire Wood</h1>
                 <h3 className={classes.subtitle}>
-                  A Badass Material-UI Kit based on Material Design.
+                  Naturally sourced, naturally cut, naturally dried and naturally delivered to your door.
                 </h3>
               </div>
             </GridItem>
