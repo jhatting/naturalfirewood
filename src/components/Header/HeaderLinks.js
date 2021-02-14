@@ -37,7 +37,7 @@ export default function HeaderLinks(props) {
           buttonIcon={Apps}
           dropdownList={[
             <Link to="/" className={classes.dropdownLink}>
-              All components
+              Large (16in logs 120-140lbs)
             </Link>,
              <Link to="/" className={classes.dropdownLink}>
              All components
