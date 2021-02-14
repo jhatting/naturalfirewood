@@ -55,7 +55,7 @@ export default function Components(props) {
               <div className={classes.brand}>
                 <h1 className={classes.title}>Natural Fire Wood</h1>
                 <h3 className={classes.subtitle}>
-                  Naturally sourced, naturally cut, naturally dried and naturally delivered to your door.
+                  Naturally sourced, cut, dried and delivered to your door.
                 </h3>
               </div>
             </GridItem>
