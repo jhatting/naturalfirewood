@@ -31,45 +31,16 @@ export default function Footer(props) {
       <div className={classes.container}>
         <div className={classes.left}>
           <List className={classes.list}>
-            <ListItem className={classes.inlineBlock}>
-              <a
-                href="https://www.linkedin.com/in/jarrod-hatting-25964b162/"
-                className={classes.block}
-                target="_blank"
-              >
-                Website created by Jarrod Hatting
-              </a>
-            </ListItem>
-            <ListItem className={classes.inlineBlock}>
-              <a
-                href="https://www.creative-tim.com/presentation?ref=mkr-footer"
-                className={classes.block}
-                target="_blank"
-              >
-                About us
-              </a>
-            </ListItem>
-            
-            <ListItem className={classes.inlineBlock}>
-              <a
-                href="https://www.creative-tim.com/license?ref=mkr-footer"
-                className={classes.block}
-                target="_blank"
-              >
-                Licenses
-              </a>
-            </ListItem>
           </List>
         </div>
         <div className={classes.right}>
-          &copy; {1900 + new Date().getYear()} , made with{" "}
-          <Favorite className={classes.icon} /> by{" "}
+          &copy; {1900 + new Date().getYear()} , made by
           <a
-            href="https://www.creative-tim.com?ref=mkr-footer"
+            href="https://www.linkedin.com/in/jarrod-hatting-25964b162/"
             className={aClasses}
             target="_blank"
           >
-            Creative Tim
+            Jarrod Hatting
           </a>{" "}
           for a better web.
         </div>
