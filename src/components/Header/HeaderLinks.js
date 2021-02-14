@@ -40,10 +40,10 @@ export default function HeaderLinks(props) {
               Large (16in logs 120-140lbs)
             </Link>,
              <Link to="/" className={classes.dropdownLink}>
-             Medium (16in Logs 60-70lb)
+              Medium (16in Logs 60-70lb)
              </Link>,
             <Link to="/" className={classes.dropdownLink}>
-            All components
+              Small Mini Logs (8inch 25-30lbs)
             </Link>,
             <Link to="/" className={classes.dropdownLink}>
             All components
