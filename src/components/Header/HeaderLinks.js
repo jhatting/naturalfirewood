@@ -52,11 +52,11 @@ export default function HeaderLinks(props) {
             All components
             </Link>,
             <a
-              href="https://creativetimofficial.github.io/material-kit-react/#/documentation?ref=mkr-navbar"
+              href="https://www.amazon.com/Smoak-Firewood-Premium-Firestarter-120-140lbs/dp/B079J78ZS1/ref=sr_1_6?crid=S6UCYUXDCA4C&dchild=1&keywords=firewood&qid=1613339214&sprefix=firew%2Caps%2C480&sr=8-6"
               target="_blank"
               className={classes.dropdownLink}
             >
-              Documentation
+              Buy Now
             </a>
           ]}
         />
