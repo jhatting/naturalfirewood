@@ -46,10 +46,7 @@ export default function HeaderLinks(props) {
               Small Mini Logs (8inch 25-30lbs)
             </Link>,
             <Link to="/" className={classes.dropdownLink}>
-            All components
-            </Link>,
-            <Link to="/" className={classes.dropdownLink}>
-            All components
+              Kindling (8inch 25lb)
             </Link>,
             <a
               href="https://www.amazon.com/Smoak-Firewood-Premium-Firestarter-120-140lbs/dp/B079J78ZS1/ref=sr_1_6?crid=S6UCYUXDCA4C&dchild=1&keywords=firewood&qid=1613339214&sprefix=firew%2Caps%2C480&sr=8-6"
