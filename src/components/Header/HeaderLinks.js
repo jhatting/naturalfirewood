@@ -33,16 +33,16 @@ export default function HeaderLinks(props) {
           buttonText="Products"
           buttonProps={{
             className: classes.navLink,
-            color: "transparent"
+            color: "transparent",
           }}
           buttonIcon={Apps}
           dropdownList={[
             <Link to="/" className={classes.dropdownLink}>
               Large (16in logs 120-140lbs)
             </Link>,
-             <Link to="/" className={classes.dropdownLink}>
+            <Link to="/" className={classes.dropdownLink}>
               Medium (16in Logs 60-70lb)
-             </Link>,
+            </Link>,
             <Link to="/" className={classes.dropdownLink}>
               Small Mini Logs (8inch 25-30lbs)
             </Link>,
@@ -55,7 +55,7 @@ export default function HeaderLinks(props) {
               className={classes.dropdownLink}
             >
               Buy Now
-            </a>
+            </a>,
           ]}
         />
       </ListItem>
@@ -66,7 +66,7 @@ export default function HeaderLinks(props) {
           target="_blank"
           className={classes.navLink}
         >
-          <Email className={classes.icons} /> Contact 
+          <Email className={classes.icons} /> Contact
         </Button>
       </ListItem>
       <ListItem className={classes.listItem}>

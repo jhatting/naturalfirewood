@@ -23,10 +23,11 @@ export default function SectionExamples() {
     <div className={classes.section}>
       <div className={classes.container}>
         <GridContainer justify="center">
+          
           <GridItem xs={12} sm={12} md={6}>
-            <Link to="landing-page" className={classes.link}>
+            <Link to="large-logs" className={classes.link}>
               <img
-                src={landing}
+                src={profile}
                 alt="..."
                 className={
                   classes.imgRaised +
@@ -37,7 +38,7 @@ export default function SectionExamples() {
                 }
               />
               <Button color="primary" size="lg" simple>
-                View landing page
+                View Large-Logs page
               </Button>
             </Link>
           </GridItem>
@@ -59,6 +60,43 @@ export default function SectionExamples() {
               </Button>
             </Link>
           </GridItem>
+          <GridItem xs={12} sm={12} md={6}>
+            <Link to="profile-page" className={classes.link}>
+              <img
+                src={profile}
+                alt="..."
+                className={
+                  classes.imgRaised +
+                  " " +
+                  classes.imgRounded +
+                  " " +
+                  classes.imgFluid
+                }
+              />
+              <Button color="primary" size="lg" simple>
+                View profile page
+              </Button>
+            </Link>
+          </GridItem>
+          <GridItem xs={12} sm={12} md={6}>
+            <Link to="profile-page" className={classes.link}>
+              <img
+                src={profile}
+                alt="..."
+                className={
+                  classes.imgRaised +
+                  " " +
+                  classes.imgRounded +
+                  " " +
+                  classes.imgFluid
+                }
+              />
+              <Button color="primary" size="lg" simple>
+                View profile page
+              </Button>
+            </Link>
+          </GridItem>
+          
         </GridContainer>
       </div>
     </div>
